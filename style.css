@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;    
+}
+
+header {
+    Padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+Header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+Header a { 
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.trainers {
+    text-align: center;
+}
+.trainer { 
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+}
+.trainer img { 
+    width: 35%;
+    float: left;
+}
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
